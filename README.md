@@ -1,6 +1,33 @@
-# ibox_api
-ibox 接口列表，欢迎补充，网关算法购买请联系 vx: irabbit666
+# ibox_api以及hook脚本
 
+fridahook抓包脚本:
+
+Java.perform(function() {
+    var clz = Java.use('com.ibox.libs.common.utils.security.EncryptSecurityTool');
+    var wxcloudCore=Java.use("com.tencent.wxcloud.WXCloudCore")
+    wxcloudCore.callContainer.implementation=function(arg1,arg2,arg3,arg4,arg5){
+        console.log("===========================================================")
+        console.log(arg2)
+        console.log(arg3)
+        console.log(arg4)
+        console.log("加密后===>",arg5)
+        console.log("===========================================================")
+        return this.callContainer(arg1,arg2,arg3,arg4,arg5)
+    }
+    clz.c.implementation = function(data,key) {
+        console.log("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
+        console.log("明文===>" + data);
+        console.log("加密key===>" + key);
+        console.log("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
+        var result = this.c(data,key);
+        return result;
+    }})
+    
+    
+
+
+ibox 接口列表，欢迎补充
+# 网关算法购买请联系 vx: irabbit666
 协议头：
 {x-cloudbase-phone=, IB-DEVICE-ID=00000000-5217-9005-ffff-ffffef05ac4a_ad, IB-APP-VERSION=1.1.11, User-Agent=iBoxApp209, IB-PLATFORM-TYPE=android, HOST=api-app-tgw.ibox.art, language=zh-CN, Accept-Language=zh-CN, Content-Type=application/json; charset=UTF-8, IB-TRANS-ID=e4cbab2b-cf89-4a3c-a92d-edbc7b5f3e1b_android}
 
