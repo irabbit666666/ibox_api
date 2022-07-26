@@ -109,6 +109,9 @@ POST
 POST
 /nft-mall-web/v1/nft/order/create?captcha_id=89639f0a604fe5a0c95f08edf29b3441&gen_time=1658740893&captcha_key=a3dda6e4d08a1c1f46441ab2fc909a8f&captcha_output=OLmFN0iaIftQd0EG8_MwMYau_PHQLjbandrJIFnK33PJizZkDWttdJEOkUFxzEr6p1Ygnda-RDpouP6nkONz4TSYAJwVTEPQRMtwIx5ybV4XvpaRzTInC0gfSWHtAEzXum3JWGwMZ-aAAdx-I39GYTYrGPFqfZCf4_EiG-RZ8g1kDVhFW3fZxqtTj0LcT4eLsA45hKdk7nS9UW_dhRAeeQ%3D%3D&pass_token=0a4010349e83b2ad4f666fc3187658d2c42adf9ac80f39a09c758371e246b409&lot_number=b5001417a317400dadb939d99bbc6fcb
 
+优先购
+/nft-mall-web/nft/order/create?captcha_id=6bcc18dc7ecf5e296948b32a64b21ba2&gen_time=1658817021&captcha_output=fcFK39jIhY9RPWGY8e5pQ3bXOqAft45Zl_CJha3Qqb2qyjycFgzmWKFo9tyyT89itpMRrf-6vB4EvkRI014F99392Q_hWDzzcKwxkmssfCQTIFPGutv1O6xAF2_L7qWqcVofha_86olvKRtKczCMjrWHYz5KZL_D8SdZiylKi74Rjb-ZWK0kcvbdMqFJAhFe5Vk0YzqCIDoyZZt2w5g15Q%3D%3D&pass_token=72c0ba1b0c7390facb927317d985bee1193fd699bfe8c107ec8e48fbfec7c2e3&lot_number=30a26ca6ba9143f98fa5d2b29edf02ab
+
 明文===>{"gId":"102090139","price":"769.0","albumId":"100513880","payChannel":"23","type":0,"gNum":"75504"}
 
 取消订单
