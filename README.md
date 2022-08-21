@@ -31,6 +31,11 @@ ibox 接口列表，欢迎补充
 协议头：
 {x-cloudbase-phone=, IB-DEVICE-ID=00000000-5217-9005-ffff-ffffef05ac4a_ad, IB-APP-VERSION=1.1.11, User-Agent=iBoxApp209, IB-PLATFORM-TYPE=android, HOST=api-app-tgw.ibox.art, language=zh-CN, Accept-Language=zh-CN, Content-Type=application/json; charset=UTF-8, IB-TRANS-ID=e4cbab2b-cf89-4a3c-a92d-edbc7b5f3e1b_android}
 
+盲盒购买
+POST
+/nft-mall-web/v1/nft/blind/order/create
+明文===>{"gId":"","num":"1","payChannel":"24","id":"100514484","type":0}
+
 GET
 /nft-mall-web/v1.2/nft/product/getCollectionListByUidV3?uid=12376016&onSale=0&pageSize=20&page=1&type=0
 
