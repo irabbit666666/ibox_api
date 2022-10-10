@@ -121,7 +121,7 @@ POST
 
 合成：
 
-/nft-mall-web/nft/product/syntheticNewGoods
+/nft-mall-web/nft/product/syntheticNewGoods?captcha_id=6bcc18dc7ecf5e296948b32a64b21ba2&gen_time=1658817021&captcha_output=fcFK39jIhY9RPWGY8e5pQ3bXOqAft45Zl_CJha3Qqb2qyjycFgzmWKFo9tyyT89itpMRrf-6vB4EvkRI014F99392Q_hWDzzcKwxkmssfCQTIFPGutv1O6xAF2_L7qWqcVofha_86olvKRtKczCMjrWHYz5KZL_D8SdZiylKi74Rjb-ZWK0kcvbdMqFJAhFe5Vk0YzqCIDoyZZt2w5g15Q%3D%3D&pass_token=72c0ba1b0c7390facb927317d985bee1193fd699bfe8c107ec8e48fbfec7c2e3&lot_number=30a26ca6ba9143f98fa5d2b29edf02ab
 POST明文：
 {activityId:123,ids:[1,2,3]}
 
