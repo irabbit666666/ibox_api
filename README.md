@@ -119,6 +119,12 @@ POST
 
 明文===>{"gId":"102090139","price":"769.0","albumId":"100513880","payChannel":"23","type":0,"gNum":"75504"}
 
+合成：
+
+/nft-mall-web/nft/product/syntheticNewGoods
+POST明文：
+{activityId:123,ids:[1,2,3]}
+
 取消订单
 POST
 /nft-mall-web/nft/order/cancle
